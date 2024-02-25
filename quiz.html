@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <title>About Us</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" href="projectStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Us page for Colonialism and the Environment, an effort to educate people about climate change and call them to action.">
+    <meta name="keywords" content="climate change, climate, activism, environment, edcuate, education, colonialism">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">home page</a></li>
+            <li><a href="aboutUs.html">about us</a></li>
+            <li><a href="history.html">history of the environment</a></li>
+            <li><a href="currentGoals.html">goals to work towards</a></li>
+            <li><a href="joinUs.html">join us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <header class="header">
+        <h1>Quiz!!</h1>
+    </header>
+    <body>
+        <main>
+            <section>
+                <form name="quiz">
+                    <fieldset>
+                        <legend>How many years would it take you "to produce as much carbon as the richest billionaires do in a year"? (source: Oxfam)</legend>
+                        <input type="radio" name="yearsToMatchBillionnaires" value="150" id="150">
+                        <label for="150">150</label>
+                        <input type="radio" name="yearsToMatchBillionnaires" value="600" id="600">
+                        <label for="600">600</label>
+                        <input type="radio" name="yearsToMatchBillionnaires" value="1500" id="1500">
+                        <label for="1500">1500</label>
+                        <input type="radio" name="yearsToMatchBillionnaires" value="2000" id="2000">
+                        <label for="2000">2000</label>
+                        <!--id and for have to match!-->
+                    </fieldset>
+                    <fieldset>
+                        <legend>Since 1988, how many corporations have been responsible for 70% of global greenhouse gas emissions? (source: Carbon Majors Report)</legend>
+                        <input type="radio" name="corporationsResponsible" value="20" id="20">
+                        <label for="20">20</label>
+                        <input type="radio" name="corporationsResponsible" value="70" id="70">
+                        <label for="70">70</label>
+                        <input type="radio" name="corporationsResponsible" value="100" id="100">
+                        <label for="100">100</label>
+                        <input type="radio" name="corporationsResponsible" value="700" id="700">
+                        <label for="gorilla">700</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Approximately what percentage of its annual profits does Coca-Cola spend on advertising to cover up its crimes in India, Peru, Russia, Chile, Nicaragua, Turkey-- oh. Sorry. I'll stop.</legend>
+                        <input type="radio" name="cocaCola" value="1%" id="1%">
+                        <label for="1%">1%</label>
+                        <input type="radio" name="cocaCola" value="3%" id="3%">
+                        <label for= "3%">3%</label>
+                        <input type="radio" name="cocaCola" value="7%" id="7%">
+                        <label for="7%">7%</label>
+                        <input type="radio" name="cocaCola" value="10%" id="10%">
+                        <label for="10%">10%</label>
+                    </fieldset>
+                    <br>
+                    <button type="button" onclick="checkAnswers()">Submit</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
